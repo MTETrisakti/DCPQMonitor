@@ -10,7 +10,7 @@ This repository accompanies the manuscript:
 > Real Time Temperature, Humidity, and Dew Point Psychrometric Monitoring for
 > ASHRAE TC 9.9 Compliance: A Hybrid Edge Cloud IoT Case Study in a Tropical
 > Server Room
-> Diyanda Armawan, Syah Alam, Chairul Gagarin Irianto, Lydia Sari, Yuli
+> Syah Alam,Diyanda Armawan Chairul Gagarin Irianto, Lydia Sari, Yuli
 > Kurnia Ningsih, and Gagas Setyawahyuaji
 > Department of Electrical Engineering, Universitas Trisakti, Jakarta,
 > Indonesia
@@ -62,9 +62,25 @@ Not included:
   wet-bulb, enthalpy, and ASHRAE TC 9.9 zone classification) is described
   analytically in Section 3 of the manuscript rather than reproduced here as
   code.
-- The Google Sites dashboard front-end.
+- The Google Sites dashboard front-end. A live instance, reporting real-time
+  readings from the deployment described in the manuscript, is viewable at
+  the link in "Live dashboard" below; its front-end source is not included
+  in this repository.
 - The raw deployment dataset (9,334 transmitted records, 13-16 April 2026).
   Contact the corresponding author for data-sharing requests.
+
+## Live dashboard
+
+A live instance of the interactive dashboard described in Section 4.2 and
+Section 5 of the manuscript — showing real-time temperature, humidity, dew
+point, and ASHRAE TC 9.9 zone classification at the deployment site — is
+viewable at:
+
+https://sites.google.com/std.trisakti.ac.id/room/home
+
+This is provided for illustration of the system described in the paper. For
+questions about adapting this system to a different site or use case,
+please get in touch via the corresponding author's contact details below.
 
 ## Security note before you deploy your own copy
 
